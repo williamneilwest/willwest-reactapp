@@ -40,18 +40,11 @@ export default function Skills() {
             <div className="mt-4">
                 <Slider {...settings}>
                 <SkillCard name="linux" experience="1 years" img={linux} />
-                <SkillCard name="bash" experience="1 years" img={bash} />
                 <SkillCard name="python" experience="1 years" img={python} />
                 <SkillCard name="javascript" experience="1 years" img={javascript} />
                 <SkillCard name="react" experience="1 years" img={reactIcon} />
-                <SkillCard name="tailwind" experience="1 years" img={tailwind} />
-                <SkillCard name="kvm" experience="1 years" img={kvm} />
-                <SkillCard name="mikrotik" experience="1 years" img={mikrotik} />
-                <SkillCard name="kubernetes" experience="1 years" img={kubernetes} />
-                <SkillCard name="ansible" experience="1 years" img={ansible} />
                 <SkillCard name="windows" experience="1 years" img={windows} />
                 <SkillCard name="react" experience="1 years" img={react} />
-                <SkillCard name="cisco" experience="1 years" img={cisco} />
                 <SkillCard name="docker" experience="1 years" img={docker} />
                 <SkillCard name="git" experience="1 years" img={git} />
                 <SkillCard name="express" experience="1 years" img={express} />

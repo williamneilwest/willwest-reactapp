@@ -12,7 +12,6 @@ import docker from "../assets/skills/docker.svg"
 import git from "../assets/skills/git.svg"
 import express from "../assets/skills/express.svg"
 import gitlab from "../assets/skills/gitlab.svg"
-import React, {useEffect} from "react";
 
 import hr from "../assets/curve-hr.svg";
 

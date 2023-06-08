@@ -1,14 +1,8 @@
 import CertCard from "./CertCard.js"
 
 import hr from "../assets/curve-hr.svg"
-import mtcna from "../assets/certs/mtcna.jpg"
 import adinusa from "../assets/certs/adinusa.png"
-import dicodingAws from "../assets/certs/dicoding-aws.png"
-import dicodingJs from "../assets/certs/dicoding-js.png"
-import dicodingNetwork from "../assets/certs/dicoding-network.png"
-import progateHtml from "../assets/certs/progate-htmlcss.png"
-import progateJs from "../assets/certs/progate-js.png"
-import fccResponsive from "../assets/certs/fcc-responsive.png"
+
 
 // import 
 

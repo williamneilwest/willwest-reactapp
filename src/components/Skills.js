@@ -5,7 +5,6 @@ import SkillCard from "./SkillCard.js"
 import javascript from "../assets/skills/javascript.svg"
 import linux from "../assets/skills/linux.svg"
 import python from "../assets/skills/python.svg"
-import reactIcon from "../assets/skills/react.svg"
 import windows from "../assets/skills/windows.svg"
 import react from "../assets/skills/react.svg"
 import docker from "../assets/skills/docker.svg"
@@ -34,7 +33,6 @@ export default function Skills() {
                 <SkillCard name="linux" experience="1 years" img={linux} />
                 <SkillCard name="python" experience="1 years" img={python} />
                 <SkillCard name="javascript" experience="1 years" img={javascript} />
-                <SkillCard name="react" experience="1 years" img={reactIcon} />
                 <SkillCard name="windows" experience="1 years" img={windows} />
                 <SkillCard name="react" experience="1 years" img={react} />
                 <SkillCard name="docker" experience="1 years" img={docker} />

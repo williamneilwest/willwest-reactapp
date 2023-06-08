@@ -2,26 +2,20 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SkillCard from "./SkillCard.js"
-
 import javascript from "../assets/skills/javascript.svg"
-import bash from "../assets/skills/bash.svg"
-import kvm from "../assets/skills/kvm.svg"
 import linux from "../assets/skills/linux.svg"
 import python from "../assets/skills/python.svg"
 import reactIcon from "../assets/skills/react.svg"
-import tailwind from "../assets/skills/tailwind.svg"
-import mikrotik from "../assets/skills/mikrotik.svg"
-import kubernetes from "../assets/skills/kubernetes.svg"
-import ansible from "../assets/skills/ansible.svg"
 import windows from "../assets/skills/windows.svg"
 import react from "../assets/skills/react.svg"
-import cisco from "../assets/skills/cisco.svg"
 import docker from "../assets/skills/docker.svg"
 import git from "../assets/skills/git.svg"
 import express from "../assets/skills/express.svg"
 import gitlab from "../assets/skills/gitlab.svg"
+import React, {useEffect} from "react";
 
-import hr from "../assets/curve-hr.svg"
+import hr from "../assets/curve-hr.svg";
+
 
 export default function Skills() {
     const settings = {
@@ -31,7 +25,6 @@ export default function Skills() {
         slidesToShow: 2,
         slidesToScroll: 1
       };
-
     return (
         <div id="skills" className="mt-4 text-white">
             <h1 className="text-2xl font-bold">Skills</h1>

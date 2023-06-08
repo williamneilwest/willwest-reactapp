@@ -33,7 +33,6 @@ export default function Hiro () {
                     <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about Computer Network, Data Science, and Web Development. Now I am looking for more experience in my field.</p>
                 </div>
                 <a href='http://blog.dama.ink' className='mt-2 block'>Go to My Blog <FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> </a>
-                
                 <ul className='flex mt-2 gap-4 items-center'>
                    <li>
                         <a href='https://github.com/williamneilwest' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>

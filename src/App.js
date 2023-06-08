@@ -21,8 +21,8 @@ function App() {
       <Navbar />
       <Hiro />
       <Skills />
-      <Honors />
       <Certs />
+      <Honors />
       <Footer />
     </div>
   );

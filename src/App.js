@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Hiro from './components/Hiro';
 import Skills from './components/Skills'
 import Honors from './components/Honors';
-import Certs from './components/Certs';
+import Projects from './components/Projects';
 import Footer from './components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -21,7 +21,7 @@ function App() {
       <Navbar />
       <Hiro />
       <Skills />
-      <Certs />
+      <Projects />
       <Honors />
       <Footer />
     </div>

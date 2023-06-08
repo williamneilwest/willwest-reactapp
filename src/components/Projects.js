@@ -6,7 +6,7 @@ import adinusa from "../assets/certs/adinusa.png"
 
 // import 
 
-export default function Certs(){
+export default function Projects(){
     return (
         <div id="certs" className="mt-4 text-white">
             <h1 className="text-2xl font-bold">Projects</h1>

@@ -1,7 +1,7 @@
-import CertCard from "./CertCard.js"
+import ProjectCard from "./ProjectCard.js"
 
 import hr from "../assets/curve-hr.svg"
-import adinusa from "../assets/certs/adinusa.png"
+import travlr from "../assets/TravlrPage.png"
 
 
 // import 
@@ -14,7 +14,7 @@ export default function Projects(){
 
             {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5"> */}
             <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
-                <CertCard name="Bootcamp Btech Academy Cloud Engineer" img={adinusa} issued="Adinusa" date="Jul 2022" />
+                <ProjectCard name="Travlr Website" img={travlr} issued="Fullstack development using the MEAN stack." date="2023" />
 
 
             </div>

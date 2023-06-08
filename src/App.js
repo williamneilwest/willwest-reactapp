@@ -3,7 +3,7 @@ import React, {useEffect} from 'react'
 import Navbar from './components/Navbar';
 import Hiro from './components/Hiro';
 import Skills from './components/Skills'
-import Honors from './components/Honors';
+import Accomplishments from './components/Accomplishments';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import AOS from 'aos';
@@ -22,7 +22,7 @@ function App() {
       <Hiro />
       <Skills />
       <Projects />
-      <Honors />
+      <Accomplishments />
       <Footer />
     </div>
   );

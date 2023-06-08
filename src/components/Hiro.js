@@ -1,10 +1,12 @@
-import {useState} from 'react'
+import React, {useState} from 'react'
 
 import profile from '../assets/profile.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCircleArrowRight, } from "@fortawesome/free-solid-svg-icons";
-import {  faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import hr from '../assets/curve-hr.svg'
+import {  faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import faTableau from "../assets/faTableau.png";
+import hr from '../assets/curve-hr.svg';
+
 
 export default function Hiro () {
 
@@ -27,7 +29,7 @@ export default function Hiro () {
                 <div className="flex flex-col w-full mt-8">
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
                     <h1 className="text-2xl font-bold">William West</h1>
-                    <p class="text-xl font-bold text-gray-300">Data Scientist</p>
+                    <p className="text-xl font-bold text-gray-300">Data Scientist</p>
                     <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about Computer Network, Data Science, and Web Development. Now I am looking for more experience in my field.</p>
                 </div>
                 <a href='http://blog.dama.ink' className='mt-2 block'>Go to My Blog <FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> </a>
@@ -37,10 +39,12 @@ export default function Hiro () {
                         <a href='https://github.com/williamneilwest' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
                    </li> 
                     <li>
-                        <a href='https://instagram.com/damaasth' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faInstagram} /></a>
+                        <a href='https://public.tableau.com/app/profile/william.west2219' rel="noreferrer" target="_blank">
+                            <img src={faTableau} alt="Tableau Icon" className="icon" />
+                        </a>
                     </li>
                     <li>
-                        <a href='htps://linkedin.com/damasukma' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
+                        <a href='https://www.linkedin.com/in/william-west-7820a0179/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
                     </li>
                 </ul>
             </div>

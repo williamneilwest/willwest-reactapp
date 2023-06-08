@@ -30,7 +30,7 @@ export default function Hiro () {
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
                     <h1 className="text-2xl font-bold">William West</h1>
                     <p className="text-xl font-bold text-gray-300">Data Scientist</p>
-                    <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about Computer Network, Data Science, and Web Development. Now I am looking for more experience in my field.</p>
+                    <p className="text-md font-light text-gray-400 ">I am a self-motivated individual passionate about Information Technology. I have a keen interest in Computer Networking, Data Science, and Web Development. Currently, I am seeking opportunities to gain valuable experience and further enhance my skills in these fields.</p>
                 </div>
                 <a href='http://blog.dama.ink' className='mt-2 block'>Go to My Blog <FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> </a>
                 <ul className='flex mt-2 gap-4 items-center'>

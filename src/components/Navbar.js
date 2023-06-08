@@ -10,7 +10,7 @@ export default function Navbar() {
             <li className="p-4"><a href="#home" className="hover:underline">About</a></li>
             <li className="p-4"><a href="#skills" className="hover:underline">Skills</a></li>
             <li className="p-4"><a href="#honors" className="hover:underline">Honor & Awards</a></li>
-            <li className="p-4"><a href="#certs" className="hover:underline">Certfications</a></li>
+            <li className="p-4"><a href="#certs" className="hover:underline">Certifications</a></li>
             </ul>
             <a href={resume} rel="noreferrer" target="_blank" className=" bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border border-4">Resume</a>
         </div>

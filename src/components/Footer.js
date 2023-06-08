@@ -12,7 +12,7 @@ export default function Footer(){
 
       <img src={hr} className="mb-4 mt-4 w-full md:h-1 text-white bottom-0" alt="hr" />
 
-      <p className="text-sm font-light text-center">Copyright © 2023 Damasukma Trihanandi. All Right Reserved</p>
+      <p className="text-sm font-light text-center">Copyright © 2023 William West. All Rights Reserved</p>
 
     </div>
   )

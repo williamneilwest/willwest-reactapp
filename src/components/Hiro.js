@@ -4,7 +4,7 @@ import profile from '../assets/profile.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCircleArrowRight, } from "@fortawesome/free-solid-svg-icons";
 import {  faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import faTableau from "../assets/faTableau.png";
+import faTableau from "../assets/tableauIcon.png";
 import hr from '../assets/curve-hr.svg';
 
 

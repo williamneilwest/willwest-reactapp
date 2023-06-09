@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-import profile from '../assets/rocket.png';
+import profile from '../assets/me.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCircleArrowRight, } from "@fortawesome/free-solid-svg-icons";
 import {  faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";

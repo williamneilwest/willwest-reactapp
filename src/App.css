@@ -8,6 +8,13 @@ body {
 
 }
 
+/* styles.css */
+.app {
+  /* Add your CSS styles to control the layout and appearance */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
 
 .icon {
   width: 2em;

@@ -5,6 +5,9 @@ html {
 
 body {
   overscroll-behavior: contain;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+
+
 }
 
 

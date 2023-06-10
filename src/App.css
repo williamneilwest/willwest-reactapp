@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overscroll-behavior: contain;
+}
+
+
 .icon {
   width: 2em;
   height: 2em;

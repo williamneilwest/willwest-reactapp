@@ -17,7 +17,7 @@ export default function Projects(){
             Change the number of columns below to place cards as desired*/}
             <div className="grid grid-cols-1 md:grid-cols-2 mt-4 gap-5">
                 <ProjectCard name="Travlr Website" img={travlr} issued="Fullstack development using the MEAN stack." date="2023" url="https://github.com/williamneilwest/cs465-fullstack"/>
-                <ProjectCard name="Personal Website" img={personalpage} issued="The very page you are reading this on was created using React to provide a responsive, single-page application that is programmatically for scalability and brevity." date="2023" url="https://github.com/williamneilwest/willwest-reactapp"/>
+                <ProjectCard name="Personal Website" img={personalpage} issued="The very page you are reading this on was created using React to provide a responsive, single-page application that is programmatically created for scalability and brevity." date="2023" url="https://github.com/williamneilwest/willwest-reactapp"/>
             </div>
             <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />
         </div>

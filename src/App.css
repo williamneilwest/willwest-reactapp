@@ -3,6 +3,10 @@ html {
 
 }
 
+body {
+  overscroll-behavior: contain;
+}
+
 
 .icon {
   width: 2em;

@@ -43,7 +43,7 @@ export default function Hiro () {
                         </a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/william-west-7820a0179/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
+                        <a  id="skills" href='https://www.linkedin.com/in/william-west-7820a0179/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
                     </li>
                 </ul>
             </div>

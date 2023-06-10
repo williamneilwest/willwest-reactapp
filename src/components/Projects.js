@@ -11,7 +11,7 @@ import security from "../assets/projects/security.png"
 
 export default function Projects(){
     return (
-        <div id="certs" className="mt-4 text-white flex flex-col items-center">
+        <div  className="mt-4 text-white flex flex-col items-center">
             <h1 className="text-2xl font-bold ">Projects</h1>
             <p className="font-light text-gray-400">My Personal Projects, including Dashboard Visualizations, Back-end Programs, Front-end UIs and other proofs of concept.</p>
 
@@ -23,7 +23,7 @@ export default function Projects(){
                 <ProjectCard name="Personal Website" img={personalpage} issued="The very page you are reading this on was created using React to provide a responsive, single-page application that is programmatically created for scalability and brevity." date="2023" url="https://github.com/williamneilwest/willwest-reactapp"/>
 
             </div>
-            <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />
+            <img src={hr} className="w-full mt-8 md:h-2" alt="hr" id={"accomplishments"} />
         </div>
     )
 }

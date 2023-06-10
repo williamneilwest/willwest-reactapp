@@ -21,11 +21,11 @@ export default function Skills() {
         slidesToScroll: 1
       };
     return (
-        <div id="skills" className="mt-4 text-white">
+        <div className="mt-4 text-white">
             <h1 className="text-2xl font-bold">Skills</h1>
             <p className="font-light text-gray-400">Here are some of my skills</p>
 
-            <div className="mt-4">
+            <div id="projects" className="mt-4">
                 <Slider {...settings}>
                 <SkillCard name="linux" experience="1 years" img={linux} />
                 <SkillCard name="python" experience="3 years" img={python} />

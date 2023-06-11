@@ -11,6 +11,9 @@ import docker from "../assets/skills/docker.svg"
 import git from "../assets/skills/git.svg"
 import express from "../assets/skills/express.svg"
 import hr from "../assets/curve-hr.svg";
+import java from "../assets/skills/java.svg"
+import c from "../assets/skills/c.svg"
+import opengl from "../assets/skills/opengl.svg"
 
 export default function Skills() {
     const settings = {
@@ -27,14 +30,17 @@ export default function Skills() {
 
             <div id="projects" className="mt-4">
                 <Slider {...settings}>
-                <SkillCard name="linux" experience="1 years" img={linux} />
-                <SkillCard name="python" experience="3 years" img={python} />
-                <SkillCard name="javascript" experience="1 years" img={javascript} />
-                <SkillCard name="windows" experience="5+ years" img={windows} />
-                <SkillCard name="react" experience="1 years" img={react} />
-                <SkillCard name="docker" experience="1 years" img={docker} />
-                <SkillCard name="git" experience="3 years" img={git} />
-                <SkillCard name="express" experience="1 years" img={express} />
+                    <SkillCard name="python" experience="3 years" img={python} />
+                    <SkillCard name="C++" experience="2 years" img={c} />
+                    <SkillCard name="Java" experience="2 years" img={java} />
+                    <SkillCard name="git" experience="3 years" img={git} />
+                    <SkillCard name="javascript" experience="1 years" img={javascript} />
+                    <SkillCard name="windows" experience="5+ years" img={windows} />
+                    <SkillCard name="react" experience="1 years" img={react} />
+                    <SkillCard name="docker" experience="1 years" img={docker} />
+                    <SkillCard name="linux" experience="1 years" img={linux} />
+                    <SkillCard name="express" experience="1 years" img={express} />
+                    <SkillCard name="OpenGL" experience="<1 year years" img={opengl} />
                 </Slider>
             </div>
             <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />

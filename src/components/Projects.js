@@ -4,6 +4,7 @@ import hr from "../assets/curve-hr.svg"
 import travlr from "../assets/projects/TravlrPage.png"
 import personalpage from "../assets/projects/react-node.png"
 import security from "../assets/projects/security.png"
+import sqlpython from "../assets/projects/sql-python-tableau.jpg"
 
 
 
@@ -18,6 +19,7 @@ export default function Projects(){
             {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5">
             Change the number of columns below to place cards as desired*/}
             <div className="grid grid-cols-1 md:grid-cols-3 mt-4 gap-5">
+                <ProjectCard name="Data Engineering" img={sqlpython} issued="In this project, I generated data using the Fakr python library, populated this data into a locally-created/hosted Microsoft SQL Server, and am creating a dashboard visualization using Tableau." date="2023" url="https://github.com/williamneilwest/cs405-Security"/>
                 <ProjectCard name="Travlr Website" img={travlr} issued="Fullstack development using the MEAN stack." date="2023" url="https://github.com/williamneilwest/cs465-fullstack"/>
                 <ProjectCard name="Software Security" img={security} issued="In this project, I utilized various security implementation methods to secure my code and systems against unexpected failures and attacks." date="2023" url="https://github.com/williamneilwest/cs405-Security"/>
                 <ProjectCard name="Personal Website" img={personalpage} issued="The very page you are reading this on was created using React to provide a responsive, single-page application that is programmatically created for scalability and brevity." date="2023" url="https://github.com/williamneilwest/willwest-reactapp"/>

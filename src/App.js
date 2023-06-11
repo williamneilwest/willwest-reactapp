@@ -15,7 +15,7 @@ import 'aos/dist/aos.css';
 
 function App() {
     useEffect(() => {
-      document.title = 'William West';
+      document.title = 'William Neil West';
       AOS.init();
     }, []);
   return (
